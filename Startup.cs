@@ -233,7 +233,7 @@ namespace FoodChainBrandsAPI
              new TestUser
              {
                  SubjectId = "1",
-                 Username = "gurmeet",
+                 Username = "useradmin",
                  Password = "Welcome@123",
                  Claims = new List<Claim>
                  {

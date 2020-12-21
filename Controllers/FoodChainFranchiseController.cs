@@ -42,7 +42,7 @@ namespace FoodChainBrandsAPI.Controllers
 
         [Route("AddFoodChainFranchises")]
         [HttpPost]
-        public async Task<IActionResult> AddFoodChainFranchises([FromForm] IEnumerable<FoodChainFranchiseModel> model)
+        public async Task<IActionResult> AddFoodChainFranchises(IEnumerable<FoodChainFranchiseModel> model)
         {
             var franchises = model.Select(x => new FoodChainFranchises
             {

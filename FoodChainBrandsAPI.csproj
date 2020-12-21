@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Logs\elmahlog\" />
     <Folder Include="Logs\Logs\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
